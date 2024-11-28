@@ -10,6 +10,24 @@ body {
     background-size: cover;
 }
 
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    transition: color 0.3s linear;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
 .content {
     display: flex;
     margin: 20px;
@@ -20,7 +38,6 @@ body {
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .content-left {
